@@ -12,8 +12,6 @@
    ```
 2. **Pindahkan folder proyek** ke folder server lokal:
    - XAMPP: `C:\xampp\htdocs\project`
-   - WAMP: `C:\wamp\www\project`
-   - Laragon: `C:\laragon\www\project`
 
 3. **Migrasi Database**:
    Jalankan file migrasi untuk membuat database dan tabel:
@@ -25,7 +23,6 @@
    ```
    http://localhost/project/public
    ```
-
 ---
 
 ## Bagian 1: Client-side Programming
@@ -101,7 +98,7 @@ form.addEventListener("submit", (e) => {
 
 ### Event Handling
 Tiga event yang diimplementasikan:
-1. **Submit**: Validasi input sebelum form disubmit.
+1. **Submit**: Validasi input sblum form disubmit.
 2. **Change**: Menampilkan pesan ketika kategori berubah.
 3. **Click**: Menampilkan checkbox yang dipilih.
 
@@ -126,7 +123,7 @@ checkboxes.forEach((checkbox) => {
 ## Bagian 2: Server-side Programming
 
 ### Pengelolaan Data dengan PHP
-Form data dikirimkan menggunakan metode **POST** dan divalidasi di server sebelum disimpan ke database.
+Form data dikirim dengan metode **POST** dan divalidasi di server sebelum disimpan ke database.
 
 #### Contoh Kode:
 ```php
@@ -153,7 +150,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 ---
 
 ### Objek PHP Berbasis OOP
-Objek dengan dua metode untuk menyimpan dan mengambil data.
+Objek dgn dua metode untuk menyimpan dan mengambil data.
 
 #### Contoh Kode:
 ```php
@@ -198,7 +195,7 @@ CREATE TABLE fashion (
 );
 ```
 
-### Konfigurasi Koneksi Database
+### Koneksi Database
 #### Contoh Kode:
 ```php
 class Database {
