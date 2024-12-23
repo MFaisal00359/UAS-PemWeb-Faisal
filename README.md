@@ -3,9 +3,6 @@
 **Nama**: Muhammad Faisal Safira  
 **NIM**: 121140139  
 
-## Pendahuluan
-Proyek ini adalah aplikasi web sederhana yang dibangun menggunakan konsep **MVC (Model-View-Controller)** dengan PHP di sisi server, dan JavaScript di sisi client. Aplikasi ini bertujuan untuk menampilkan data model fashion, menambah data model, serta memanipulasi data dengan konsep-konsep **client-side programming**, **server-side programming**, **database management**, dan **state management**.
-
 ---
 
 ## Cara Instalasi
@@ -18,15 +15,13 @@ Proyek ini adalah aplikasi web sederhana yang dibangun menggunakan konsep **MVC 
    - WAMP: `C:\wamp\www\project`
    - Laragon: `C:\laragon\www\project`
 
-3. **Buat file `.env` (opsional)** jika diperlukan untuk menyimpan konfigurasi database.
-
-4. **Migrasi Database**:
+3. **Migrasi Database**:
    Jalankan file migrasi untuk membuat database dan tabel:
    ```bash
    php migrations/migrate.php
    ```
 
-5. **Akses aplikasi** melalui browser:
+4. **Akses aplikasi** melalui browser:
    ```
    http://localhost/project/public
    ```
